@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "chatgpt-to-discord"
+version = "0.1.0"
+description = ""
+authors = ["kissy24"]
+readme = "README.md"
+packages = [{include = "chatgpt_to_discord"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+discord = "^2.2.2"
+openai = "^0.27.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
